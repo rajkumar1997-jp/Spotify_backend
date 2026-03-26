@@ -26,7 +26,9 @@ SECRET_KEY = 'django-insecure-+zew5oitl9#c(x)xgrr@@!+grbwg)nsok^c2)*xv6xzynd9+l)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'spotify-backend-kqpp.onrender.com'
+]
 
 
 # Application definition
